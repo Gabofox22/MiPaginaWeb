@@ -1,0 +1,60 @@
+footer {
+    background: #f7f8f9;
+    color: #45505b;
+    font-size: 14px;
+    text-align: center;
+    padding: 30px 0;
+    position: relative;
+    z-index: 1;
+    
+}
+
+.Footer-final{
+    font-size: 36px;
+    font-weight: 700;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0 0 15px 0;
+    
+}
+
+.Despedida{
+    font-size: 15;
+    font-style: italic;
+    padding: 0;
+    margin: 0 0 30px 0;
+    text-align: center;   
+}
+
+.Redes {
+    margin: 0 0 40px 0;    
+}
+
+.Redes .bi {
+    font-size: 18px;
+    display: inline-block;
+    background: #0563bb;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 8px;
+    border-radius: 50%;
+    text-align: center;
+    width: 33px;
+    height: 35px;
+    transition: 0.3s;
+}
+
+.Redes .bi:hover {
+    background: #0678e3;
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+
+
+.copyright {
+    margin: 0 0 5px 0;
+}

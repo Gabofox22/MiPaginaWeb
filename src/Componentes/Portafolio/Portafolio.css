@@ -1,0 +1,135 @@
+.section-title p {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.portfolio #portfolio-flters {
+    padding: 0;
+    margin: 0 auto 25px auto;
+    list-style: none;
+    text-align: center;
+    background: #fff;
+    border-radius: 50px;
+    padding: 2px 15px;
+}
+
+.portfolio #portfolio-flters li {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #272829;
+    margin-bottom: 5px;
+    transition: all 0.3s ease-in-out;
+    background-color: transparent;
+}
+
+.portfolio #portfolio-flters li:hover,
+.portfolio #portfolio-flters li.filter-active {
+    color: #0563bb;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjetas {    
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 10rem;
+    text-align: center;
+    align-items: center;    
+}
+
+.tarjetas img {
+    width: 400px;
+    height: 300px;
+    border-radius: 5px;
+    margin-bottom: 0;
+    box-shadow: 5px 5px 5px #888888;
+    transition: all .3s ease-in-out;    
+    
+}
+
+.projects-image.opaque{
+    opacity: 0.2;
+    
+}
+
+.projects-image{
+    position: fixed;
+    display: inline-block;    
+    
+}
+
+.project-overlay h3{
+    margin-top: 85px;   
+    font-weight: bold;
+    opacity: 1;    
+}
+
+.project-overlay p{
+    font-size: 18px;
+}
+
+.icono-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.icono-container i{
+    margin: 0 20px 10px;
+
+}
+
+@media screen and (max-width: 1400px){
+
+    .tarjetas img {
+        width: 300px;
+        height: 250px;        
+    }
+
+    .project-overlay h3{
+       margin-top: 70px;
+       font-size: 20px;
+    }
+    
+    .project-overlay p{
+        font-size: 15px;
+    }
+
+  }
+
+  @media screen and (max-width: 767px){
+
+    .tarjetas img {
+        width: 250px;
+        height: 200px;
+    }
+
+    .project-overlay h3{
+       margin-top: 70px;
+       font-size: 15px;
+    }
+    
+    .project-overlay p{
+        font-size: 12px;
+    }
+
+  }
+

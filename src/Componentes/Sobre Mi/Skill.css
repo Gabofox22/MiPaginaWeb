@@ -1,0 +1,46 @@
+.skills {
+    position: relative;
+    z-index: 1;
+}
+
+.skills p {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.progress-container {
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.skill {
+    font-weight: 600;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.progress-bar-wrap {
+    background-color: #ddd;
+    border-radius: 40px;
+    height: 15px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.progress-bar {
+    background-color: #0099ff;
+    border-radius: 40px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: width 0.6s ease-in-out;
+}
+
+.skills .progress-bar {
+    width: 0;
+    height: 15px;
+    transition: 0.9s;
+    background-color: #0563bb;
+}

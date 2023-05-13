@@ -1,0 +1,166 @@
+.titulo-principal{
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+.info i {
+  font-size: 20px;
+  color: #0563bb;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #eef7ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.info h4 {  
+  margin-left: 60px;
+  font-weight: 600; 
+  color: #45505b;
+}
+
+.info p {
+  text-align: left;
+  margin-top: 0;
+  margin-left: 60px;  
+  font-size: 14px;
+  color: #728394;
+}
+
+.info .address,
+.info .email,
+.info .phone {
+  margin-top: 40px;
+  margin-bottom: 40px;  
+}
+
+.info .email:hover i,
+.info .address:hover i,
+.info .phone:hover i {
+  background: #0563bb;
+  color: #fff;
+}
+
+
+/*-------Formulario--------*/
+
+.info{
+  display: flex;
+  justify-content: space-around; 
+}
+
+.informacion{
+  margin-right: 40px;
+}
+
+.fila{
+  margin-top: 30px; 
+}
+
+.juntos{
+  display: flex;
+}
+
+.asunto{
+  width: 920px;
+}
+
+.form-group {  
+  padding-bottom: 20px;  
+  padding-right: 20px;  
+}
+
+.php-email-form textarea, input {
+  border: 1px solid #e0e0e0;
+  border-radius: 5px; 
+  box-shadow: none;
+  font-size: 14px;  
+}
+
+input {
+  height: 50px;
+  width: 450px; 
+  padding: 10px 20px;
+}
+
+.form-group input:hover {
+  border-color: #206aafa9;
+  box-shadow: 0 0 5px #5daaf3;
+}
+
+.form-group input:focus {
+  box-shadow: 0 0 5px #5daaf3;
+  border: 2px solid #206aafa9;
+  outline: none;
+}
+
+.form-group textarea {
+  padding: 10px 20px;
+  height: 170px;
+  width: 920px;
+}
+
+.text-center{
+  margin-bottom: 50px;
+}
+
+.contact button[type="submit"] {
+  background: #0563bb;
+  border: 0;
+  padding: 10px 35px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;  
+}
+
+.contact button[type="submit"]:hover {
+  background: #0678e3;
+  align-items: center;  
+}
+
+@media (max-width: 1100px){
+
+  .info{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .informacion{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-group input, 
+  .form-group textarea {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .form-group input[type="text"]{
+    margin-right: 0;
+  }
+
+  .form-group textarea{
+    height: 120px;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .text-center{
+    margin-bottom: 30px;
+  }
+
+  .fila{
+    margin-left: 20px;   
+  }
+
+}
+
+
+
