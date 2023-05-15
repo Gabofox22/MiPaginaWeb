@@ -43,7 +43,7 @@ const Contacto = () => {
           </div>
           </div>         
 
-            <form onSubmit={handleSubmit}>
+            <form action="https://formspree.io/f/xwkjzbaa" method="POST" onSubmit={handleSubmit}>
 
               <div className="fila">
 
