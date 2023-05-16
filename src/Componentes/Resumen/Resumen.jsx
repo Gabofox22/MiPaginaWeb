@@ -39,27 +39,27 @@ const Resumen = () => {
             </div>
           </div>
           <div className="col-lg-6">
-            <h3 className="resume-title">Professional Experience</h3>
+            <h3 className="resume-title">Proyectos</h3>
             <div className="resume-item">
-              <h4>Senior graphic design specialist</h4>
-              <h5>2019 - Present</h5>
-              <p><em>Experion, New York, NY </em></p>
+              <h4>Desarrolador Front-end</h4>
+              <h5>2023 - Presente</h5>
+              <p><em>Bogotá, Colombia</em></p>
               <ul>
-                <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
-                <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
-                <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
-                <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
+                <li>Lideré en el diseño, desarrollo e implementación de la interfaz gráfica y el contenido de mi primera página web.</li>
+                <li>Realicé tareas de programación en el front-end utilizando tecnologías como React.</li>
+                <li>Trabajé en equipo, colaborando con otros miembros del proyecto para lograr una experiencia de usuario fluida y atractiva.</li>
+                <li>Me aseguré de que el diseño y la funcionalidad de la página web fueran de alta calidad y cumplieran con los estándares modernos.</li>
               </ul>
             </div>
             <div className="resume-item">
-              <h4>Graphic design specialist</h4>
-              <h5>2017 - 2018</h5>
-              <p><em>Stepping Stone Advertising, New York, NY</em></p>
+              <h4>Desarrollador Front-end</h4>
+              <h5>2023-Presente</h5>
+              <p><em>SBogotá, Colombia</em></p>
               <ul>
-                <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
-                <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
-                <li>Recommended and consulted with clients on the most appropriate graphic design</li>
-                <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
+                <li>Desarrollé una aplicación personalizada para un conjunto residencial, brindando soluciones tecnológicas para mejorar la gestión y comunicación interna.</li>
+                <li>Colaboré estrechamente con el equipo de administración del conjunto residencial para comprender sus necesidades y requisitos específicos.</li>
+                <li>Diseñé e implementé funcionalidades clave, como la gestión de pagos, reservas de áreas comunes y comunicación entre los residentes y la administración.</li>
+                <li>Realicé pruebas exhaustivas para garantizar el rendimiento, la seguridad y la usabilidad de la aplicación en diferentes dispositivos y plataformas.</li>
               </ul>
             </div>
           </div>
