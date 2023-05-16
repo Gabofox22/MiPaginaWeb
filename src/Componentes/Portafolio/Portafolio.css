@@ -1,3 +1,8 @@
+.portfolio {
+    position: relative;
+    z-index: 1;
+}
+
 .section-title p {
     text-align: center;
     margin-top: 2rem;
@@ -44,14 +49,15 @@
     align-items: center;
 }
 
-.tarjetas {    
+.tarjetas {
     display: flex;
-    margin: auto;
+    margin: 60px;
     flex-direction: column;
     justify-content: space-between;
     margin-bottom: 10rem;
+    margin-top: 10px;
     text-align: center;
-    align-items: center;    
+    align-items: center;
 }
 
 .tarjetas img {
@@ -60,76 +66,125 @@
     border-radius: 5px;
     margin-bottom: 0;
     box-shadow: 5px 5px 5px #888888;
-    transition: all .3s ease-in-out;    
-    
+    transition: all .3s ease-in-out;
+
 }
 
-.projects-image.opaque{
+.projects-image.opaque {
     opacity: 0.2;
-    
+
 }
 
-.projects-image{
-    position: fixed;
-    display: inline-block;    
-    
+.projects-image {
+    position: absolute;
+    display: inline-block;
 }
 
-.project-overlay h3{
-    margin-top: 85px;   
+.project-overlay h3 {
+    margin-top: 85px;
     font-weight: bold;
-    opacity: 1;    
+    opacity: 1;
 }
 
-.project-overlay p{
+.project-overlay p {
     font-size: 18px;
 }
 
-.icono-container{
+.icono-container {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 15px;
 }
 
-.icono-container i{
-    margin: 0 20px 10px;
+.icono-container i {
+    margin: 20px 20px 10px;
+    position: relative;
 
 }
 
-@media screen and (max-width: 1400px){
+.icono-container i:hover {
+    color: #0563bb;
+    cursor: pointer;
+
+}
+
+
+@media screen and (max-width: 1400px) {
 
     .tarjetas img {
         width: 300px;
-        height: 250px;        
+        height: 250px;
     }
 
-    .project-overlay h3{
-       margin-top: 70px;
-       font-size: 20px;
+    .project-overlay h3 {
+        margin-top: 70px;
+        font-size: 20px;
     }
-    
-    .project-overlay p{
+
+    .project-overlay p {
         font-size: 15px;
     }
 
-  }
+}
 
-  @media screen and (max-width: 767px){
+@media screen and (max-width: 900px) {
 
     .tarjetas img {
-        width: 250px;
-        height: 200px;
+        width: 400px;
+        height: 300px;
     }
 
-    .project-overlay h3{
-       margin-top: 70px;
-       font-size: 15px;
-    }
-    
-    .project-overlay p{
-        font-size: 12px;
+    .project-overlay h3 {
+        margin-top: 70px;
+        font-size: 20px;
     }
 
-  }
+    .project-overlay p {
+        font-size: 15px;
+    }
 
+}
+
+@media screen and (max-width: 767px) {
+
+    .tarjetas img {
+        width: 400px;
+        height: 300px;
+    }
+
+    .project-overlay h3 {
+        margin-top: 70px;
+        font-size: 25px;
+    }
+
+    .project-overlay p {
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width: 540px) {
+
+    .tarjetas {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .tarjetas img {
+        width: 300px;
+        height: 250px;       
+
+    }
+
+    .project-overlay h3 {
+        margin-top: 30px;
+        font-size: 18px;
+    }
+
+    .project-overlay p {
+        font-size: 15px;
+    }
+
+}

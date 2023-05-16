@@ -11,7 +11,7 @@ function Footer() {
                     <a href="#t"><i className="bi bi-twitter"></i></a>
                     <a href="#f"><i className="bi bi-facebook"></i></a>
                     <a href="#i"><i className="bi bi-instagram"></i></a>
-                    <a href="#g"><i className="bi bi-github"></i></a>
+                    <a href="https://github.com/Gabofox22/MiPagina"><i className="bi bi-github"></i></a>
                     <a href="#l"><i className="bi bi-linkedin"></i></a>
                 </div>
                 <div className="copyright">

@@ -54,7 +54,7 @@ return(
         <a href="#twi" className="twitter"><i className="bi bi-twitter"></i></a>
         <a href="#fa" className="facebook"><i className="bi bi-facebook"></i></a>
         <a href="#inst" className="instagram"><i className="bi bi-instagram"></i></a>
-        <a href="#git" className="github"><i className="bi bi-github"></i></a>
+        <a href="https://github.com/Gabofox22/MiPagina" className="github"><i className="bi bi-github"></i></a>
         <a href="#lin" className="linkedin"><i className="bi bi-linkedin"></i></a>
       </div>
     </section>

@@ -1,0 +1,143 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-dialog {
+    position: fixed;
+    z-index: 1;
+    max-width: 1250px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 6px;
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 2rem;
+    background-color: transparent;
+    border: 0;
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 0.5;
+    color: #6c757d;
+    pointer-events: painted;
+}
+
+.close:hover {
+    color: #000;
+    opacity: 0.75;
+    text-decoration: none;
+}
+
+.modal-body {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ultimoTitulo {
+    text-align: center;
+    margin-left: 235px;
+    margin-top: -60px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.modal-body p {
+    text-align: center;
+    margin-left: 600px;
+    max-width: 430px;
+    margin-top: -10px;
+    word-wrap: break-word;
+}
+
+.content-box h5 {
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.list-unstyled {
+    text-align: justify;
+    font-size: 14px;
+    margin-bottom: 0;   
+}
+
+.list-unstyled li {
+    background-color: transparent;
+}
+
+.content-box {
+    width: 40%;
+    height: 220px;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px #ccc;    
+}
+
+.modal-footer {
+    padding: 1rem;
+    border-top: 1px solid #dee2e6;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    margin-top: 40px;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;    
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+        border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+@media screen and (max-width: 768px) {   
+   
+    .modal-dialog {
+      max-width: 90%;
+      height: auto;
+    }
+  
+    .content-box {
+      width: 100%;
+      height: auto;
+      margin-top: 30px;
+    }
+  
+    .ultimoTitulo {
+      margin-left: 0;
+      margin-top: 2rem;
+    }
+  
+    .modal-body p {
+      margin-left: 0;
+      margin-top: 10px;
+      max-width: 100%;
+    }
+  }
+
